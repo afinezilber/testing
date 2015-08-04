@@ -39,7 +39,7 @@ do
 						fi
 					done
 				mv devopsshared_$dir.zip ../devopsshared_backup
-				sudo zip ../devopsshared_backup/devopsshared_backup$now.zip ../devopsshared_backup/devopsshared_$dir.zip
+#				sudo zip ../devopsshared_backup/devopsshared_backup$now.zip ../devopsshared_backup/devopsshared_$dir.zip
 				cd ..
 	fi
 done
