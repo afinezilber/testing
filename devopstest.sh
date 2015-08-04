@@ -38,7 +38,7 @@ do
 							sudo zip devopsshared_$dir.zip $foldername$dir$file$filename$ext
 						fi
 					done
-				mv devopsshared_$dir.zip ../devopsshared_backup
+#				mv devopsshared_$dir.zip ../devopsshared_backup
 #				sudo zip ../devopsshared_backup/devopsshared_backup$now.zip ../devopsshared_backup/devopsshared_$dir.zip
 				cd ..
 	fi
